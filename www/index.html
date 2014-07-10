@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
+
+    <!-- take these out later or download them -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+   <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+   <script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+
+
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -24,10 +31,10 @@
       BEER
     </div>
     <!-- make this less ugly -->
-    <li ng-repeat="biz in nearby | filter:search | orderBy:predicate:reverse">
+    <li ng-repeat="biz in nearby">
       {{biz.name}}
-      <div ng-bind="biz.avg_rating"></div>
-      <img ng-src="{{biz.photo_url}}">
+      <div ng-bind="biz.rating"></div>
+      <img ng-src="{{biz.image_url}}">
     </li>
   </ion-pane>
       <!-- <ion-header-bar class="bar-stable">

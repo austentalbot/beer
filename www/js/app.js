@@ -16,24 +16,68 @@ var app = angular.module('starter', ['ionic'])
     }
   });
 })
+
 .controller('queryYelp', function($scope, $http) {
-  var yelpUrl = 'http://api.yelp.com/business_review_search',
-      yelpKey = '_Ytvx5lBfNnsmnLtgjP4_w';
+
+  var auth;
+  $.getJSON("./js/auth.json", function( data ) {
+    auth=data;
+  });
+
 
   $scope.getLocalBusinesses = function() {
-    $http({
-      method: 'JSONP',
-      url: yelpUrl,
-      params: {
-        callback: 'JSON_CALLBACK',
-        ywsid: yelpKey,
-        location: 'San+Francisco',
-        term: 'bars'
-      }
-    }).then(function(data) {
-      console.log(data);
-      $scope.nearby = data.data.businesses;
+    //get location first
+    navigator.geolocation.getCurrentPosition(function(data) {
+      var coords=data.coords;
+      console.log(coords.latitude, coords.longitude);
+      var latlng=(coords.latitude).toFixed(5)+','+(coords.longitude).toFixed(5);
+
+      var accessor = {
+          consumerSecret : auth.consumerSecret,
+          tokenSecret : auth.accessTokenSecret
+      };
+      parameters = [];
+      parameters.push(['term', 'beer']);
+      parameters.push(['ll', latlng]);
+      parameters.push(['sort', 1]);
+      parameters.push(['distance', 500]);
+      parameters.push(['callback', 'cb']);
+      parameters.push(['oauth_consumer_key', auth.consumerKey]);
+      parameters.push(['oauth_consumer_secret', auth.consumerSecret]);
+      parameters.push(['oauth_token', auth.accessToken]);
+      parameters.push(['oauth_signature_method', 'HMAC-SHA1']);
+
+      var message = {
+          'action' : 'http://api.yelp.com/v2/search',
+          'method' : 'GET',
+          'parameters' : parameters
+      };
+
+      OAuth.setTimestampAndNonce(message);
+      OAuth.SignatureMethod.sign(message, accessor);
+
+      var parameterMap = OAuth.getParameterMap(message.parameters);
+      console.log(parameterMap);
+
+      $.ajax({
+        'url' : message.action,
+        'data' : parameterMap,
+        'dataType' : 'jsonp',
+        'jsonpCallback' : 'cb',
+        'success' : function(data, textStats, XMLHttpRequest) {
+            console.log(data);
+            $scope.nearby = data.businesses;
+            $scope.$apply();
+        }
+      });
     });
   };
 });
+
+
+
+
+
+
+
 
