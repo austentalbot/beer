@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/HelloCordova/Plugins/org.apache.cordova.device/CDVDevice.m \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
+  /Users/austentalbot/Documents/Projects/beer/platforms/ios/HelloCordova/Plugins/org.apache.cordova.device/CDVDevice.h

@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005350545700000000000003B4
+t1397773399
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531149D9000000000000019E
+t1393641945
+s414
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDV.h
+c0000000053BD6FC00000000000000516
+t1404923840
+s1302
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c0000000053BD6FC00000000000000D19
+t1404923840
+s3353
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c0000000053BD6FC000000000000008BA
+t1404923840
+s2234
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c0000000053BD6FC000000000000004E2
+t1404923840
+s1250
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c0000000053BD6FC0000000000000183A
+t1404923840
+s6202
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c0000000053BD6FC00000000000000503
+t1404923840
+s1283
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c0000000053BD6FC00000000000001ED0
+t1404923840
+s7888
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c0000000053BD6FC000000000000004CB
+t1404923840
+s1227
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c0000000053BD6FC00000000000000EBF
+t1404923840
+s3775
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c0000000053BD6FC00000000000000401
+t1404923840
+s1025
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c0000000053BD6FC000000000000007E6
+t1404923840
+s2022
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c0000000053BD6FC00000000000000DDE
+t1404923840
+s3550
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c0000000053BD6FC000000000000003DA
+t1404923840
+s986
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c0000000053BD6FC000000000000009A1
+t1404923840
+s2465
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c0000000053BD6FC000000000000006CF
+t1404923840
+s1743
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c0000000053BD6FC00000000000004E02
+t1404923840
+s19970
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c0000000053BD6FC000000000000008F3
+t1404923840
+s2291
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c0000000053BD6FC0000000000000173C
+t1404923840
+s5948
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c0000000053BD6FC00000000000000C13
+t1404923840
+s3091
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c0000000053BD6FC00000000000001B29
+t1404923840
+s6953
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c0000000053BD6FC00000000000000408
+t1404923840
+s1032
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.h
+c0000000053BD6FC000000000000003E6
+t1404923840
+s998
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m
+c0000000053BD6FC000000000000006BD
+t1404923840
+s1725
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c0000000053BD6FC0000000000000038D
+t1404923840
+s909
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c0000000053BD6FC00000000000000AA2
+t1404923840
+s2722
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c0000000053BD6FC0000000000000041C
+t1404923840
+s1052
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c0000000053BD6FC0000000000000259E
+t1404923840
+s9630
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c0000000053BD6FC00000000000000421
+t1404923840
+s1057
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c0000000053BD6FC00000000000001361
+t1404923840
+s4961
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c0000000053BD6FC00000000000000ACC
+t1404923840
+s2764
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c0000000053BD6FC00000000000008FD2
+t1404923840
+s36818
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c0000000053BD6FC00000000000000689
+t1404923840
+s1673
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c0000000053BD6FC00000000000003992
+t1404923840
+s14738
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c0000000053BD6FC000000000000004B4
+t1404923840
+s1204
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c0000000053BD6FC000000000000029D2
+t1404923840
+s10706
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c0000000053BD6FC00000000000000392
+t1404923840
+s914
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c0000000053BD6FC000000000000004D8
+t1404923840
+s1240
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c0000000053BD6FC0000000000000037D
+t1404923840
+s893
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c0000000053BD6FC000000000000022CC
+t1404923840
+s8908
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c0000000053BD6FC000000000000005DA
+t1404923840
+s1498
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c0000000053BD6FC00000000000001059
+t1404923840
+s4185
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c0000000053BD6FC000000000000003A0
+t1404923840
+s928
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c0000000053BD6FC00000000000000584
+t1404923840
+s1412
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c0000000053BD6FC00000000000000476
+t1404923840
+s1142
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c0000000053BD6FC00000000000000620
+t1404923840
+s1568
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c0000000053BD6FC00000000000000346
+t1404923840
+s838
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1404923894
+s64920
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1404923894
+s61412
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1404923894
+s27472
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1404923893
+s18256
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1404923894
+s10584
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1404923894
+s106756
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1404923894
+s57568
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1404923893
+s36648
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1404923894
+s9056
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1404923894
+s22616
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1404923894
+s68896
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1404923894
+s50776
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1404923894
+s162968
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1404923894
+s69048
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1404923893
+s43128
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c0000000053BD6FF40000000000000D43
+t1404923892
+s3395
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1404923894
+s7228
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1404923893
+s10920
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1404923893
+s17340
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1404923893
+s6784
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1404923894
+s9204
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h
+t1404923892
+s1302
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t1404923892
+s3353
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t1404923892
+s2234
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t1404923892
+s1250
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t1404923892
+s1283
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t1404923892
+s1227
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t1404923892
+s1025
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t1404923892
+s2022
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t1404923892
+s986
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t1404923892
+s1743
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t1404923892
+s2291
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t1404923892
+s3091
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t1404923892
+s1032
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t1404923892
+s998
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t1404923892
+s909
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t1404923892
+s1052
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t1404923892
+s1057
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t1404923892
+s2764
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t1404923892
+s1673
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t1404923892
+s1204
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t1404923892
+s914
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t1404923892
+s893
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t1404923892
+s1498
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t1404923892
+s928
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t1404923892
+s1142
+
+N/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a
+t1404923894
+s869408
+
+N/var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch
+t1404923893
+s3241932
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1119669ea76db941^1215829ea76db941^---0#1#1#--18"Check dependencies36"CF44F865-D674-4E7E-92A4-AC91D87BC19B-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.287087
+e426616694.547040
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerab954976a76db941^4e0d8c76a76db941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3900"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"9B6EDAB9-889F-4523-B3F1-69AF661FCEC4-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.271277
+e426616694.583496
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4dd94576a76db941^0f609576a76db941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3858"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"B3DD42DB-92C1-4EF1-A5FE-C959821D9EA7-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.379891
+e426616694.422842
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler42606176a76db941^0c3f6c76a76db941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3858"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"2D0DD063-AAFF-47C6-849A-80597DDB1721-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.572942
+e426616693.782750
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler46d29275a76db941^6a86c875a76db941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3888"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"0AF4CA45-86E7-4E6E-A9F3-DFAFD4DC43A4-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.423069
+e426616694.456985
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd26e6c76a76db941^e7007576a76db941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3810"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"14BE1E17-8112-4675-85CE-7D8B4A8B84D2-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.903743
+e426616694.286808
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere17be775a76db941^4c6d4976a76db941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3858"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"8120D07E-01C2-4C80-B81E-C442CE8917F7-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.776965
+e426616694.175900
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa09c775a76db941^44c12c76a76db941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3822"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"3DD47AA9-EDF9-464C-8A18-4C838F335B6D-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.574692
+e426616693.823025
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc45b9375a76db941^a9f5d275a76db941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3858"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"4BA2D43E-DA1B-49FB-9CD2-1B8DEADB6E99-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.641400
+e426616694.701680
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerac58a476a76db941^18b5b376a76db941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3822"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"D108B49F-DBAD-4481-ABFD-B348799E8897-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.584884
+e426616694.640136
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler83dc9576a76db941^8be0a376a76db941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3816"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"32673807-667C-496F-BB29-353D40C9B430-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.810430
+e426616694.207856
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler959ccf75a76db941^c6363576a76db941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3852"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"CB00222A-4CB7-4F8D-A023-DF493B402037-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.457623
+e426616694.655677
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5d4e7576a76db941^c7daa776a76db941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3864"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"F5D724F8-ADE1-40A9-8B75-37802782AED6-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.823486
+e426616694.697466
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler31eed275a76db941^d28fb276a76db941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3870"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"F7895DA4-C9A8-48FA-AB43-58B3EF519E8B-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.548519
+e426616694.758587
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f948c76a76db941^6a33c276a76db941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3876"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"FC74AB1D-713F-49DC-A199-F3134341D463-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.783080
+e426616693.903383
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler44a2c875a76db941^8601e775a76db941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3840"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"D2513C58-2F52-4DA6-9FC6-FF26D071C007-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.208622
+e426616694.270452
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2983576a76db941^9b574576a76db941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3882"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"E0A4D72D-E002-4F7B-A10D-F8BF98D40AA5-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.573308
+e426616693.776619
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1e6e9375a76db941^cee1c675a76db941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3846"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"7B8E3A91-40F3-4547-8A62-0C7D871C1498-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.572516
+e426616693.778503
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerccb79275a76db941^e947c775a76db941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3906"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"906F8BCC-8441-42EC-B881-49FF63816646-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616693.779889
+e426616693.810078
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2dcfc775a76db941^e064cf75a76db941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3942"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"913F26B0-E683-4F46-A3B5-55D91DD547BC-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616694.176766
+e426616694.379548
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb5f2d76a76db941^fd2d6176a76db941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3882"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG -include /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"14E9AF76-3197-4471-A58F-A53FD6C65763-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDV.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h
+s426616692.560958
+e426616692.579321
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h117"CpHeader Classes/CDV.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h9fcc8f74a76db941^2d5c9674a76db941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h00341c06dfffdf42^749"CpHeader Classes/CDV.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDV.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDV.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"5197AD50-945F-43B2-A1FC-5B2BAA794F69-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVAvailability.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s426616692.560979
+e426616692.579313
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h141"CpHeader Classes/CDVAvailability.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.hc8b78f74a76db941^a4529474a76db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00341c06dfffdf42^785"CpHeader Classes/CDVAvailability.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"49EDCD7F-D725-4442-8BD9-D8F0FFB69223-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s426616692.552624
+e426616692.579369
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h147"CpHeader Classes/CDVCommandDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h118e8d74a76db941^5b5f9474a76db941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00341c06dfffdf42^794"CpHeader Classes/CDVCommandDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"85593921-EDBD-48ED-9192-632F6ED5641B-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s426616692.588779
+e426616692.601668
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h155"CpHeader Classes/CDVCommandDelegateImpl.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h9bc69674a76db941^d5079a74a76db941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00341c06dfffdf42^806"CpHeader Classes/CDVCommandDelegateImpl.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"430467B4-7A59-4E55-AEE0-C8B1C3E26251-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVCommandQueue.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s426616692.588539
+e426616692.601992
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h141"CpHeader Classes/CDVCommandQueue.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.hcbbf9674a76db941^d02b9a74a76db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00341c06dfffdf42^785"CpHeader Classes/CDVCommandQueue.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"3C4BCB07-D1CF-45B5-9C92-5B3A210D8953-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVConfigParser.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s426616692.602156
+e426616692.609184
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h141"CpHeader Classes/CDVConfigParser.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h9c4e9a74a76db941^520c9c74a76db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00341c06dfffdf42^785"CpHeader Classes/CDVConfigParser.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"B6CD801F-806A-4D11-A357-FE8CDABB50E6-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVDebug.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s426616692.539856
+e426616692.545348
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h127"CpHeader Classes/CDVDebug.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.hcc438a74a76db941^f8a48b74a76db941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00341c06dfffdf42^764"CpHeader Classes/CDVDebug.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVDebug.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"5E3E67FD-B6D3-4549-AAFB-3F9EDE6E8789-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s426616692.525951
+e426616692.538477
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h151"CpHeader Classes/CDVInvokedUrlCommand.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h57ed8674a76db941^0ce88974a76db941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00341c06dfffdf42^800"CpHeader Classes/CDVInvokedUrlCommand.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"22DA095B-5AC5-40E0-89BE-0E3BAEF1488A-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVJSON.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s426616692.602464
+e426616692.617824
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h125"CpHeader Classes/CDVJSON.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h874f9a74a76db941^0de09d74a76db941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00341c06dfffdf42^761"CpHeader Classes/CDVJSON.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVJSON.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"E65835D8-AEE0-4B2E-8F97-6455AED571E9-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVLocalStorage.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s426616692.572218
+e426616692.587845
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h141"CpHeader Classes/CDVLocalStorage.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h5c939274a76db941^5c939674a76db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00341c06dfffdf42^785"CpHeader Classes/CDVLocalStorage.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"4D618436-F22F-4E47-9FAB-01EAD7BD6620-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVPlugin.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s426616692.539582
+e426616692.545053
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h129"CpHeader Classes/CDVPlugin.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.he23a8a74a76db941^7d968b74a76db941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00341c06dfffdf42^767"CpHeader Classes/CDVPlugin.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"C6D51D1D-DF99-4084-B113-A8A89130D9AB-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVPluginResult.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s426616692.527621
+e426616692.538571
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h141"CpHeader Classes/CDVPluginResult.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.hc0268774a76db941^4e638b74a76db941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00341c06dfffdf42^785"CpHeader Classes/CDVPluginResult.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"334769BE-001C-4759-999B-66EFF2612643-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s426616692.595382
+e426616692.609138
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h167"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h027f9874a76db941^97009c74a76db941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00341c06dfffdf42^824"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"B194C174-42A6-42DD-97C0-593285CEA2B6-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVShared.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s426616692.595419
+e426616692.608579
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h129"CpHeader Classes/CDVShared.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h3c859874a76db941^e8da9b74a76db941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h00341c06dfffdf42^767"CpHeader Classes/CDVShared.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVShared.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"AC2B9D7B-FD7C-41FF-84CA-F082BD5CFCE0-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVTimer.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s426616692.617909
+e426616692.626234
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h127"CpHeader Classes/CDVTimer.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h03439e74a76db941^dd5ca074a76db941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00341c06dfffdf42^764"CpHeader Classes/CDVTimer.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVTimer.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"6EEB9D13-2CFA-43D2-B114-DDAF056DE2E0-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVURLProtocol.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s426616692.545293
+e426616692.560821
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h139"CpHeader Classes/CDVURLProtocol.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h1db08b74a76db941^12888f74a76db941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00341c06dfffdf42^782"CpHeader Classes/CDVURLProtocol.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"4CD605C1-A87D-4162-810E-109E55ACC473-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s426616692.609774
+e426616692.626079
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h143"CpHeader Classes/CDVUserAgentUtil.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h022a9c74a76db941^1b4ba074a76db941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00341c06dfffdf42^788"CpHeader Classes/CDVUserAgentUtil.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"07A5CA4B-C0E6-414C-B90A-E184EF5F6EBC-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVViewController.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s426616692.552192
+e426616692.559150
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h145"CpHeader Classes/CDVViewController.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.hfc6f8d74a76db941^e0648f74a76db941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00341c06dfffdf42^791"CpHeader Classes/CDVViewController.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVViewController.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"CA838A1E-A7BF-4BB0-B4D3-57297ECE6C63-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s426616692.608825
+e426616692.617186
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h147"CpHeader Classes/CDVWebViewDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.hcff39b74a76db941^020d9e74a76db941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00341c06dfffdf42^794"CpHeader Classes/CDVWebViewDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"9D315F0E-56AE-4699-9DE4-7D08E3042048-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/CDVWhitelist.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s426616692.539765
+e426616692.551871
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h135"CpHeader Classes/CDVWhitelist.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h61548a74a76db941^d2528d74a76db941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00341c06dfffdf42^776"CpHeader Classes/CDVWhitelist.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"99872ABC-4B7B-4439-B948-16CC62B430E4-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s426616692.580564
+e426616692.594626
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h149"CpHeader Classes/NSArray+Comparisons.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h86c99474a76db941^d13c9874a76db941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00341c06dfffdf42^797"CpHeader Classes/NSArray+Comparisons.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"0765FBC1-4BB6-4698-B22B-8DC5637D38A3-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/NSData+Base64.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s426616692.526245
+e426616692.538556
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h137"CpHeader Classes/NSData+Base64.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.hcafd8674a76db941^92768b74a76db941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00341c06dfffdf42^779"CpHeader Classes/NSData+Base64.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"790EF608-ED5A-4E22-B0C4-490B4C5096DF-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s426616692.525736
+e426616692.538344
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h157"CpHeader Classes/NSDictionary+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h47e98674a76db941^f5d58974a76db941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00341c06dfffdf42^809"CpHeader Classes/NSDictionary+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"94928901-33F5-44D5-A70B-6BE2A5516C12-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s426616692.539684
+e426616692.551682
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h169"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h6a6d8a74a76db941^0e498d74a76db941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00341c06dfffdf42^827"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"F695F4D2-D01E-4461-AA1F-250828E0B63C-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s426616692.579965
+e426616692.594746
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h149"CpHeader Classes/UIDevice+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h91b79474a76db941^b16a9874a76db941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00341c06dfffdf42^797"CpHeader Classes/UIDevice+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include/Cordova36"B77D300F-FCDD-412F-8ABF-0423DDA433A4-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CLibtool /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a normal i386
+s426616694.764108
+e426616694.785933
+r1
+xLibtool
+x/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a normal i386105"Libtool /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a normal i386e6cfc376a76db941^3c33c976a76db941^---0#0#1#--1092"Libtool /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -filelist /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/libCordova.a36"4D71BD1A-8E12-499A-A041-413BE08CADD2-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
+CProcessPCH /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426616692.628397
+e426616693.570041
+r1
+xProcessPCH
+x/var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch291"ProcessPCH /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2506a174a76db941^0fef9175a76db941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3816"ProcessPCH /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/austentalbot/.nvm/v0.10.29/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mongodb/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/austentalbot/Documents/Projects/beer/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.d -c /Users/austentalbot/Documents/Projects/beer/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/y6/36nqk_nn0399qfj0zb80rc7w0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-auzdmilmsrwpanbbtvtcgwzqbhoo/CordovaLib_Prefix.pch.pch36"754C6F53-63FC-45A6-BBE3-D95DBF00E178-
+b46EE10ED-41CB-438F-B63B-4955262F4B51
+
