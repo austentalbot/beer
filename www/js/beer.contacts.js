@@ -10,6 +10,9 @@ angular.module('beer.contacts', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+  $.getJSON("./js/auth.json", function(data) {
+    auth=data;
+  });
 })
 
 .controller('myContacts', function($scope) {
@@ -23,8 +26,40 @@ angular.module('beer.contacts', ['ionic'])
       $scope.mates[person.name]=true;
     } else { 
       delete $scope.mates[person.name];
-    }
-    
+    } 
+  }
+  $scope.sendRequest = function() {
+    // for (var mate in $scope.mates) {
+    //   //need to write this function to send email
+    //   sendMessage(mate);
+    // }
+    console.log('sending!');
+    $.ajax({
+      type: 'POST',
+      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+      data: {
+        'key': auth.mandrillKey,
+        'message': {
+          'from_email': 'BEER@beer.beer',
+          'to': [
+              {
+                'email': 'austentalbot@gmail.com',
+                'name': 'Austen',
+                'type': 'to'
+              }
+              // },
+              // {
+              //   ‘email’: ‘RECIPIENT_NO_2@EMAIL.HERE’,
+              //   ‘name’: ‘ANOTHER RECIPIENT NAME (OPTIONAL)’,
+              //   ‘type’: ‘to’
+              // }
+            ],
+          'autotext': 'true',
+          'subject': 'BEER?',
+          'html': 'DETAILS: '
+        }
+      }
+    });
   }
 });
 
