@@ -9,6 +9,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
   })
   .state('places', {
     url: '/places',
-    templateUrl: 'places.html'
+    templateUrl: 'html/places.html'
   });
 });

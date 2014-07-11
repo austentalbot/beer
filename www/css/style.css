@@ -25,3 +25,9 @@ ion-pane:active {
    line-height: 300px;
    font-size: 100px;
 }
+a {
+  color: #FAFAFF;
+}
+#results {
+  color: white;
+}

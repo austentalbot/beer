@@ -1,0 +1,9 @@
+<div ng-model='beer.places' ng-controller='queryYelp'>
+  <div ng-init='getLocalBusinesses()' id='results'>
+  <li ng-repeat="biz in nearby">
+    {{biz.name}}
+    <div ng-bind="biz.rating"></div>
+    <!-- <img ng-src="{{biz.image_url}}"> -->
+  </li>
+  </div>
+</div>

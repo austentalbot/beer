@@ -66,3 +66,10 @@ angular.module('beer.places', ['ionic'])
   };
 });
 
+
+
+
+
+
+
+
