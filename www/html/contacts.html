@@ -1,7 +1,9 @@
-<div ng-model='beer.contacts' ng-controller='myMates' id='resultsWrapper'>
+<div ng-model='beer.contacts' ng-controller='myContacts' id='resultsWrapper'>
+  CONTACTS
+  {{ mates }}
   <div ng-init='loadContacts()' id='contacts'>
     <ol>
-      <li ng-repeat="person in peope" ng-class-odd="'odd'" ng-class-even="'even'">
+      <li ng-repeat="person in people" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
          {{person.name}}
       </li>
       </ol>

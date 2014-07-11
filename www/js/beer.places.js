@@ -12,7 +12,7 @@ angular.module('beer.places', ['ionic'])
   });
 })
 
-.controller('queryYelp', function($scope, $location) {
+.controller('queryYelp', function($scope) {
   var auth;
   $.getJSON("./js/auth.json", function( data ) {
     auth=data;

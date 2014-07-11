@@ -1,4 +1,4 @@
-var app = angular.module('beer', ['beer.home', 'beer.places', 'ionic']);
+var app = angular.module('beer', ['beer.home', 'beer.places', 'beer.contacts', 'ionic']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/home');
