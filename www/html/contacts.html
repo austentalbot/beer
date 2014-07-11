@@ -1,0 +1,9 @@
+<div ng-model='beer.contacts' ng-controller='myMates' id='resultsWrapper'>
+  <div ng-init='loadContacts()' id='contacts'>
+    <ol>
+      <li ng-repeat="person in peope" ng-class-odd="'odd'" ng-class-even="'even'">
+         {{person.name}}
+      </li>
+      </ol>
+  </div>
+</div>
