@@ -18,6 +18,8 @@ angular.module('beer.places', ['ionic'])
     auth=data;
   });
 
+  $scope.selected;
+
   $scope.getLocalBusinesses = function() {
     //get location first
     navigator.geolocation.getCurrentPosition(function(data) {
@@ -57,7 +59,7 @@ angular.module('beer.places', ['ionic'])
         'dataType': 'jsonp',
         'jsonpCallback': 'cb',
         'success': function(data, textStats, XMLHttpRequest) {
-          // console.log(data);
+          console.log(data);
           $scope.nearby = data.businesses;
           $scope.$apply();
         }
@@ -65,7 +67,6 @@ angular.module('beer.places', ['ionic'])
     });
   };
 });
-
 
 
 

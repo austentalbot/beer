@@ -1,16 +1,10 @@
 <div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper'>
   <div ng-init='getLocalBusinesses()' id='results'>
-  <ol>
-    <li ng-repeat="bar in nearby" ng-class-odd="'odd'" ng-class-even="'even'">
-       {{bar.name}}
-    </li>
-  </ol>
-
-
-<!--   <li ng-repeat="biz in nearby">
-    {{biz.name}}
-    <div ng-bind="biz.rating"></div> -->
-    <!-- <img ng-src="{{biz.image_url}}"> -->
-  </li>
+    {{ selected }}
+    <ol>
+      <li ng-repeat="bar in nearby" ng-click='$parent.selected = bar.name+": "+bar.distance.toFixed()+" meters "+bar.rating+" stars"' ng-class-odd="'odd'" ng-class-even="'even'">
+         {{bar.name}}: {{bar.distance.toFixed()}} meters {{bar.rating}} stars
+      </li>
+    </ol>
   </div>
 </div>
