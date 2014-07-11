@@ -1,8 +1,15 @@
-<div ng-model='beer.places' ng-controller='queryYelp'>
+<div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper'>
   <div ng-init='getLocalBusinesses()' id='results'>
-  <li ng-repeat="biz in nearby">
+  <ol>
+    <li ng-repeat="bar in nearby" ng-class-odd="'odd'" ng-class-even="'even'">
+       {{bar.name}}
+    </li>
+  </ol>
+
+
+<!--   <li ng-repeat="biz in nearby">
     {{biz.name}}
-    <div ng-bind="biz.rating"></div>
+    <div ng-bind="biz.rating"></div> -->
     <!-- <img ng-src="{{biz.image_url}}"> -->
   </li>
   </div>

@@ -31,3 +31,17 @@ a {
 #results {
   color: white;
 }
+.odd {
+  background-color: #2A3A48;
+  color: #FAFAFF;
+}
+.even {
+  background-color: #3E6372;
+  color: #FAFAFF;
+}
+#results, ol, #resultsWrapper {
+  height: 100%;
+}
+li {
+  height: 5%;
+}
