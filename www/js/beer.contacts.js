@@ -19,18 +19,30 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   $scope.mates={};
   $scope.Bar=Bar;
 
+
+  $scope.saveContact = function() {
+    var name=$('#name').val();
+    var email=$('#email').val();
+    if (name!=='' && email!=='') {
+      var contact={name: name, email: email};
+      $('#name').val('');
+      $('#email').val('');
+      console.log(contact);
+    }
+  };
+
   var testContacts=[{name: 'Austen', email: 'austentalbot@gmail.com'}, {name: 'Austen2', email: 'austentalbot@gmail.com'}];
   $scope.loadContacts = function() {
     $scope.people=testContacts;
     console.log($scope.Bar.selected);
-  }
+  };
   $scope.toggleContacts = function(person) {
     if (!$scope.mates[person.name]) {
       $scope.mates[person.name]=person;
     } else { 
       delete $scope.mates[person.name];
     } 
-  }
+  };
   $scope.sendRequest = function() {
     sendTo=[];
     for (var m in $scope.mates) {
@@ -65,7 +77,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
         }
       }
     });
-  }
+  };
 });
 
 

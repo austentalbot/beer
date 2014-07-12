@@ -3,6 +3,11 @@
   {{ mates }}
   <div ng-init='loadContacts()' id='contacts'>
     <div ng-click='sendRequest()'> BEER </div>
+    <form>
+      <input id='name' type='text' placeholder='name'>
+      <input id='email' type='text' placeholder='email'>
+      <div id='addContact' ng-click='saveContact()'>ADD NEW CONTACT</div>
+    </form>
     <ol>
       <li ng-repeat="person in people" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
          {{person.name}}

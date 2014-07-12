@@ -1,3 +1,7 @@
+/*COLOR SCHEME:
+https://kuler.adobe.com/Copy-of-Wildflower-simone-color-theme-3999099/edit/?copy=true
+*/
+
 body {
   background-color: #F28D7A;
 }
@@ -74,4 +78,17 @@ li {
   margin: 0 auto;
   height: 20%;
   width: auto;
+}
+input {
+  background-color: #FEF2D8;
+  color: #6AA8A5 !important;
+  font-family: 'PT Sans Narrow';
+  font-size: 20px !important;
+}
+input:focus {
+  background-color: #FFE4D1;
+}
+#addContact {
+  background-color: #03606B;
+  font-size: 20px;
 }
