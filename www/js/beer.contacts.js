@@ -19,6 +19,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   $scope.mates={};
   $scope.Bar=Bar;
 
+  console.log($scope.Bar.selected);
 
   $scope.saveContact = function() {
     var name=$('#name').val();
@@ -56,7 +57,10 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
       sendTo.push(recipient);
     }
 
-    var details=[$rootScope.user.displayName,'sent you a BEER request for',$scope.Bar.selected].join(' ');
+    var bar='<a href="'+$scope.Bar.selected.url+'">'+$scope.Bar.selected.name +', '+$scope.Bar.selected.location.address[0]+', '+$scope.Bar.selected.location.city+': '+$scope.Bar.selected.rating + ' stars</a>'
+    console.log(bar);
+
+    var details=['<html><body>', $rootScope.user.displayName,'sent you a BEER request for',bar, '</body></html>'].join(' ');
 
     console.log('sending!');
     console.log(sendTo);

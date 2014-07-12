@@ -3,7 +3,7 @@
     {{ Bar.selected }}
     <a ui-sref='contacts' style='text-decoration:none'>
       <ol>
-        <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar.name+": "+bar.distance.toFixed()+" meters "+bar.rating+" stars")' ng-class-odd="'odd'" ng-class-even="'even'">
+        <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
            {{bar.name}}: {{bar.distance.toFixed()}} meters {{bar.rating}} stars
         </li>
       </ol>
