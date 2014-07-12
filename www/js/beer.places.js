@@ -1,4 +1,18 @@
-angular.module('beer.places', ['ionic'])
+angular.module('beer.bar', [])
+.service('Bar', function () {
+  return {
+    selected: 'test',
+    getProperty: function () {
+      return this.selected;
+    },
+    setProperty: function(value) {
+      this.selected = value;
+    }
+  };
+});
+
+
+angular.module('beer.places', ['ionic', 'beer.bar'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -12,13 +26,13 @@ angular.module('beer.places', ['ionic'])
   });
 })
 
-.controller('queryYelp', function($scope) {
+.controller('queryYelp', function($scope, Bar) {
   var auth;
   $.getJSON("./js/auth.json", function( data ) {
     auth=data;
   });
 
-  $scope.selected;
+  $scope.Bar=Bar;
 
   $scope.getLocalBusinesses = function() {
     //get location first

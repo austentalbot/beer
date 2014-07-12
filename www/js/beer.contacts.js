@@ -1,4 +1,4 @@
-angular.module('beer.contacts', ['ionic'])
+angular.module('beer.contacts', ['ionic', 'beer.bar'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -15,25 +15,42 @@ angular.module('beer.contacts', ['ionic'])
   });
 })
 
-.controller('myContacts', function($scope) {
+.controller('myContacts', function($scope, Bar) {
   $scope.mates={};
-  var testContacts=[{name: 'Anthony'}, {name: 'Julia'}, {name: 'Austen'}, {name: 'Scott'}, {name: 'Susan'}];
+  $scope.Bar=Bar;
+
+  var testContacts=[{name: 'Austen', email: 'austentalbot@gmail.com'}, {name: 'Austen2', email: 'austentalbot@gmail.com'}];
   $scope.loadContacts = function() {
     $scope.people=testContacts;
+    console.log($scope.Bar.selected);
   }
   $scope.toggleContacts = function(person) {
     if (!$scope.mates[person.name]) {
-      $scope.mates[person.name]=true;
+      $scope.mates[person.name]=person;
     } else { 
       delete $scope.mates[person.name];
     } 
   }
   $scope.sendRequest = function() {
-    // for (var mate in $scope.mates) {
-    //   //need to write this function to send email
-    //   sendMessage(mate);
-    // }
+    sendTo=[];
+    for (var m in $scope.mates) {
+      var mate=$scope.mates[m];
+      var recipient={
+        email: mate.email,
+        name: mate.name,
+        type: 'to'
+      };
+      sendTo.push(recipient);
+    }
+
+    var user='Austen'
+    var details=[user,'sent you a BEER request for',$scope.Bar.selected].join(' ');
+
     console.log('sending!');
+    console.log(sendTo);
+    console.log(user);
+    console.log($scope.Bar.selected)
+    console.log(details);
     $.ajax({
       type: 'POST',
       url: 'https://mandrillapp.com/api/1.0/messages/send.json',
@@ -41,22 +58,10 @@ angular.module('beer.contacts', ['ionic'])
         'key': auth.mandrillKey,
         'message': {
           'from_email': 'BEER@beer.beer',
-          'to': [
-              {
-                'email': 'austentalbot@gmail.com',
-                'name': 'Austen',
-                'type': 'to'
-              }
-              // },
-              // {
-              //   ‘email’: ‘RECIPIENT_NO_2@EMAIL.HERE’,
-              //   ‘name’: ‘ANOTHER RECIPIENT NAME (OPTIONAL)’,
-              //   ‘type’: ‘to’
-              // }
-            ],
+          'to': sendTo,
           'autotext': 'true',
-          'subject': 'BEER?',
-          'html': 'DETAILS: '
+          'subject': 'BEER!',
+          'html': details
         }
       }
     });

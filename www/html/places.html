@@ -1,9 +1,9 @@
 <div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper'>
   <div ng-init='getLocalBusinesses()' id='results'>
-    {{ selected }}
+    {{ Bar.selected }}
     <a ui-sref='contacts' style='text-decoration:none'>
       <ol>
-        <li ng-repeat="bar in nearby" ng-click='$parent.selected = bar.name+": "+bar.distance.toFixed()+" meters "+bar.rating+" stars"' ng-class-odd="'odd'" ng-class-even="'even'">
+        <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar.name+": "+bar.distance.toFixed()+" meters "+bar.rating+" stars")' ng-class-odd="'odd'" ng-class-even="'even'">
            {{bar.name}}: {{bar.distance.toFixed()}} meters {{bar.rating}} stars
         </li>
       </ol>
