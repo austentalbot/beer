@@ -1,47 +1,60 @@
+body {
+  background-color: #F28D7A;
+}
 ion-pane {
   font-family: 'PT Sans Narrow';
-  background-color: #FF6900 !important;
+  background-color: #F28D7A !important;
+  font-size: 25px;
 }
 ion-pane {
   position: absolute;
-  color: #FAFAFF;
+  color: #FEF2D8;
   top: 50%;
   left: 0%;
   height: 100%;
   width: 100%;
   text-align: center;
 }
-ion-pane:active {
-  background-color: #E65000 !important;
+#title:active #titleWrapper:active{
+  background-color: #DB5A55 !important;
 }
 #title {
-   width: 300px;
-   height: 300px;
-   position: absolute;
-   left: 50%;
-   top: 50%; 
-   margin-left: -150px;
-   margin-top: -150px;
-   line-height: 300px;
-   font-size: 100px;
+  background-color: #F28D7A;
+  display: table;
+  margin-left: 0;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; 
+  line-height: 300px;
+  font-size: 100px;
+}
+#titleWrapper {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
 }
 a {
-  color: #FAFAFF;
+  color: #FEF2D8;
 }
 #results {
-  color: white;
+  color: #FEF2D8;
 }
 .odd {
-  background-color: #2A3A48;
-  color: #FAFAFF;
+  background-color: #6AA8A5;
+  color: #FEF2D8;
 }
 .even {
-  background-color: #3E6372;
-  color: #FAFAFF;
+  background-color: #F28D7A;
+  color: #FEF2D8;
 }
-#results, ol, #resultsWrapper {
+#results, ol, #resultsWrapper, #contacts {
   height: 100%;
 }
 li {
-  height: 5%;
+  height: 10%;
 }

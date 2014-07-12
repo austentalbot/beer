@@ -2,11 +2,11 @@
   CONTACTS
   {{ mates }}
   <div ng-init='loadContacts()' id='contacts'>
+    <div ng-click='sendRequest()'> BEER </div>
     <ol>
       <li ng-repeat="person in people" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
          {{person.name}}
       </li>
     </ol>
-    <div ng-click='sendRequest()'> BEER </div>
   </div>
 </div>
