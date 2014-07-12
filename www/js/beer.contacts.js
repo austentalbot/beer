@@ -15,7 +15,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   });
 })
 
-.controller('myContacts', function($scope, Bar) {
+.controller('myContacts', function($scope, $rootScope, Bar) {
   $scope.mates={};
   $scope.Bar=Bar;
 
@@ -24,16 +24,17 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
     var name=$('#name').val();
     var email=$('#email').val();
     if (name!=='' && email!=='') {
-      var contact={name: name, email: email};
+      console.log($rootScope.user);
+      var contact={userId: $rootScope.user.id, name: name, email: email};
+      console.log(contact);
+      $rootScope.elFuego.$add(contact);
       $('#name').val('');
       $('#email').val('');
-      console.log(contact);
     }
   };
 
-  var testContacts=[{name: 'Austen', email: 'austentalbot@gmail.com'}, {name: 'Austen2', email: 'austentalbot@gmail.com'}];
   $scope.loadContacts = function() {
-    $scope.people=testContacts;
+    $scope.people=$rootScope.elFuego;
     console.log($scope.Bar.selected);
   };
   $scope.toggleContacts = function(person) {
@@ -55,12 +56,10 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
       sendTo.push(recipient);
     }
 
-    var user='Austen'
-    var details=[user,'sent you a BEER request for',$scope.Bar.selected].join(' ');
+    var details=[$rootScope.user.displayName,'sent you a BEER request for',$scope.Bar.selected].join(' ');
 
     console.log('sending!');
     console.log(sendTo);
-    console.log(user);
     console.log($scope.Bar.selected)
     console.log(details);
     $.ajax({
