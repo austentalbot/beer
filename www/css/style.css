@@ -58,3 +58,20 @@ a {
 li {
   height: 10%;
 }
+#outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#loginWrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#login {
+  display: block;
+  margin: 0 auto;
+  height: 20%;
+  width: auto;
+}

@@ -1,11 +1,15 @@
-var app = angular.module('beer', ['beer.home', 'beer.places', 'beer.contacts', 'ionic']);
+var app = angular.module('beer', ['beer.home', 'beer.places', 'beer.contacts', 'beer.login', 'ionic', 'firebase']);
 
 app.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/home');
+  $urlRouterProvider.otherwise('/login');
   $stateProvider
   .state('home', {
     url: '/home',
     templateUrl: 'html/home.html'
+  })
+  .state('login', {
+    url: '/login',
+    templateUrl: 'html/login.html'
   })
   .state('places', {
     url: '/places',
@@ -16,3 +20,4 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: 'html/contacts.html'
   });
 });
+
