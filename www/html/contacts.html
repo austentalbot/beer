@@ -9,7 +9,7 @@
       <div id='addContact' ng-click='saveContact()'>ADD NEW CONTACT</div>
     </form>
     <ol>
-      <li ng-repeat="person in people" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
+      <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
          {{person.name}}
       </li>
     </ol>
