@@ -42,6 +42,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   });
 
   $scope.Bar=Bar;
+  $scope.nearby=$rootScope.nearby;
 
   $scope.getLocalBusinesses = function() {
     //get location first
@@ -84,8 +85,9 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         'jsonpCallback': 'cb',
         'success': function(data, textStats, XMLHttpRequest) {
           console.log(data);
-          $scope.nearby = data.businesses;
-          $scope.$apply();
+          // $scope.nearby = data.businesses;
+          // $scope.$apply();
+          $rootScope.nearby=data.businesses;
         }
       });
     });
