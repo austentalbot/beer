@@ -1,4 +1,4 @@
-<div ng-model='beer.contacts' ng-controller='myContacts' id='resultsWrapper'>
+<div ng-model='beer.contacts' ng-controller='myContacts' id='resultsWrapper' ng-init='checkLogin()'>
   CONTACTS
   {{ mates }}
   <div ng-init='loadContacts()' id='contacts'>

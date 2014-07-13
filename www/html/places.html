@@ -1,6 +1,6 @@
-<div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper'>
+<div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper' ng-init='checkLogin()'>
   <div ng-init='getLocalBusinesses()' id='results'>
-    {{ Bar.selected }}
+    <!-- {{ Bar.selected }} -->
     <a ui-sref='contacts' style='text-decoration:none'>
       <ol>
         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">

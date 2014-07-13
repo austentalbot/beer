@@ -15,11 +15,19 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   });
 })
 
-.controller('myContacts', function($scope, $rootScope, Bar) {
+.controller('myContacts', function($scope, $rootScope, Bar, $state) {
   $scope.mates={};
   $scope.Bar=Bar;
 
   console.log($scope.Bar.selected);
+
+  $scope.checkLogin = function () {
+    console.log($rootScope.user);
+    if ($rootScope.user===undefined) {
+      console.log('going to login');
+      $state.go('login');
+    }  
+  };
 
   $scope.saveContact = function() {
     var name=$('#name').val();

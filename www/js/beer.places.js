@@ -13,7 +13,7 @@ angular.module('beer.bar', [])
 
 
 angular.module('beer.places', ['ionic', 'beer.bar'])
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $rootScope, $state) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -26,7 +26,16 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   });
 })
 
-.controller('queryYelp', function($scope, Bar) {
+.controller('queryYelp', function($scope, Bar, $rootScope, $state) {
+
+  $scope.checkLogin = function () {
+    console.log($rootScope.user);
+    if ($rootScope.user===undefined) {
+      console.log('going to login');
+      $state.go('login');
+    }  
+  };
+
   var auth;
   $.getJSON("./js/auth.json", function( data ) {
     auth=data;

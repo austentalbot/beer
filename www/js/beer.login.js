@@ -25,6 +25,7 @@ angular.module('beer.login', ['ionic', 'firebase'])
     }
   });
   $scope.login = function() {
+    $rootScope.user=undefined;
     auth.login('google', {preferRedirect: true, rememberMe: true});
   };
   // $rootScope.elFuego=$firebase(elFuego);
