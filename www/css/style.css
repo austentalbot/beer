@@ -92,3 +92,7 @@ input:focus {
   background-color: #03606B;
   font-size: 20px;
 }
+#yelp {
+  height: 90%;
+  width: auto;
+}
