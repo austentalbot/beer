@@ -47,7 +47,6 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   var loadNearby=setInterval(function() {
     $scope.nearby=$rootScope.nearby;
     $scope.$digest()
-    console.log('running');
     if ($scope.nearby!==undefined) {
       clearInterval(loadNearby);
     }

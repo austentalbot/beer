@@ -92,7 +92,7 @@ input:focus {
   background-color: #03606B;
   font-size: 20px;
 }
-#yelp {
+#yelp, #checkmark {
   height: 90%;
   width: auto;
 }

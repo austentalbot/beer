@@ -1,6 +1,5 @@
 <div ng-model='beer.contacts' ng-controller='myContacts' id='resultsWrapper' ng-init='checkLogin()'>
   CONTACTS
-  {{ mates }}
   <div ng-init='loadContacts()' id='contacts'>
     <div ng-click='sendRequest()'> BEER </div>
     <form>
@@ -9,8 +8,8 @@
       <div id='addContact' ng-click='saveContact()'>ADD NEW CONTACT</div>
     </form>
     <ol>
-      <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
-         {{person.name}} <img src='img/checkmark.png'></img>
+      <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person); showCheck = ! showCheck' ng-class-odd="'odd'" ng-class-even="'even'">
+         <span>{{person.name}} <img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img></span>
       </li>
     </ol>
   </div>
