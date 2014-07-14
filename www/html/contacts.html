@@ -10,7 +10,7 @@
     </form>
     <ol>
       <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person)' ng-class-odd="'odd'" ng-class-even="'even'">
-         {{person.name}}
+         {{person.name}} <img src='img/checkmark.png'></img>
       </li>
     </ol>
   </div>

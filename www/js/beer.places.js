@@ -42,7 +42,16 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   });
 
   $scope.Bar=Bar;
-  $scope.nearby=$rootScope.nearby;
+
+  //check for yelp results to load and stop checking after they display
+  var loadNearby=setInterval(function() {
+    $scope.nearby=$rootScope.nearby;
+    $scope.$digest()
+    console.log('running');
+    if ($scope.nearby!==undefined) {
+      clearInterval(loadNearby);
+    }
+  }, 1000);
 
   $scope.getLocalBusinesses = function() {
     //get location first
@@ -88,6 +97,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
           // $scope.nearby = data.businesses;
           // $scope.$apply();
           $rootScope.nearby=data.businesses;
+          // $rootScope.$digest();
         }
       });
     });
