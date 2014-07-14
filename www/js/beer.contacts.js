@@ -88,6 +88,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
         }
       }
     });
+    $state.go('home');
   };
 });
 

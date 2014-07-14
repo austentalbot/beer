@@ -96,3 +96,9 @@ input:focus {
   height: 90%;
   width: auto;
 }
+#sendRequest:active {
+  background-color: #DB5A55;
+}
+
+
+
