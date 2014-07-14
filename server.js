@@ -1,5 +1,4 @@
 var connect = require('connect');
-var express = require('express');
 var serveStatic = require('serve-static');
 
 var path=__dirname+'/www';
