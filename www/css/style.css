@@ -95,13 +95,18 @@ input:focus {
   font-size: 20px;
 }
 #yelp, #checkmark {
-  height: 0.7em;
-  width: 0.7em;
+  height: 0.8em;
+  width: 0.8em;
+}
+#checkmark {
+  float: left;
+  position: fixed;
 }
 #sendRequest {
+  height: 1em;
   font-size: 40px;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   background-color: #03606B;
 }
 #sendRequest:active, #addContact:active {
@@ -119,10 +124,14 @@ input:focus {
   float: left;
 }
 #contactContainer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  display:block;
+  /*padding-top: 1em;*/
+  /*padding-bottom: 1em;*/
+  height: 100%;
 }
 ol {
   overflow-y: scroll;
 }
-
+#allContacts {
+  height: 75%;
+}

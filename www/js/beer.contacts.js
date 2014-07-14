@@ -45,6 +45,15 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   $scope.loadContacts = function() {
     $scope.people=$rootScope.elFuego;
     console.log($scope.Bar.selected);
+
+    //set up size of ol
+    var height = $(document).height();
+    var topH = $('#sendRequest').outerHeight();
+    var formH = $('form').outerHeight();
+
+    $('ol').height(height-topH-formH);
+
+
   };
   $scope.toggleContacts = function(person) {
     if (!$scope.mates[person.name]) {
