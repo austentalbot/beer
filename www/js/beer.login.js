@@ -15,6 +15,9 @@ angular.module('beer.login', ['ionic', 'firebase'])
   var elFuego = new Firebase('https://luminous-fire-8550.firebaseio.com/');
 
   var auth = new FirebaseSimpleLogin(elFuego, function(error, user) {
+    if (error) {
+      throw error;
+    }
     console.log(user);
     if (user!== null && user!==undefined) {
       $rootScope.user=user;
