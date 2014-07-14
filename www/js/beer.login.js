@@ -12,7 +12,7 @@ angular.module('beer.login', ['ionic', 'firebase'])
   });
 })
 .controller('fireBase', function($firebase, $scope, $rootScope, $state) {
-  var elFuego = new Firebase('https://luminous-fire-8550.firebaseio.com/');
+  var elFuego = new Firebase('https://prost.firebaseio.com/');
 
   var auth = new FirebaseSimpleLogin(elFuego, function(error, user) {
     if (error) {
@@ -22,7 +22,7 @@ angular.module('beer.login', ['ionic', 'firebase'])
     if (user!== null && user!==undefined) {
       $rootScope.user=user;
 
-      var elFuego = new Firebase('https://luminous-fire-8550.firebaseio.com/user/'+user.id);
+      var elFuego = new Firebase('https://prost.firebaseio.com/user/'+user.id);
       $rootScope.elFuego=$firebase(elFuego);
       $state.go('home');
     }

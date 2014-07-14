@@ -1,5 +1,5 @@
 {
-  "firebase": "luminous-fire-8550",
+  "firebase": "prost",
   "public": "www",
   "ignore": [
     "firebase.json",
