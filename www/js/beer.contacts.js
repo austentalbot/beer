@@ -72,8 +72,9 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
       };
       sendTo.push(recipient);
     }
+
     if (sendTo.length>0) {
-      var bar='<a href="'+$scope.Bar.selected.url+'">'+$scope.Bar.selected.name +', '+$scope.Bar.selected.location.address[0]+', '+$scope.Bar.selected.location.city+': '+$scope.Bar.selected.rating + ' stars</a>'
+      var bar='<a href="https://foursquare.com/v/'+$scope.Bar.selected.venue.id+'">'+$scope.Bar.selected.venue.name +', '+$scope.Bar.selected.venue.location.formattedAddress[0]+', '+$scope.Bar.selected.venue.location.formattedAddress[1]+': '+$scope.Bar.selected.venue.rating + '/10</a>'
       console.log(bar);
 
       var details=['<html><body>', $rootScope.user.displayName,'sent you a BEER request for',bar, '</body></html>'].join(' ');
