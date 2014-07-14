@@ -3,7 +3,7 @@
   <div id='results'>
       <ol>
         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
-           <a target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'> {{bar.name}}: {{bar.distance.toFixed()}} meters {{bar.rating}} stars</a>
+           <a id='yelpWrapper' target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> {{bar.name}}: {{bar.distance.toFixed()}} meters {{bar.rating}} stars</div></a>
         </li>
       </ol>
   </div>

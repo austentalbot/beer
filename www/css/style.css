@@ -51,17 +51,19 @@ a {
 .odd {
   background-color: #6AA8A5;
   color: #FEF2D8;
+  padding-top: .2em;
+  padding-bottom: .2em;
 }
 .even {
   background-color: #F28D7A;
   color: #FEF2D8;
+  padding-top: .2em;
+  padding-bottom: .2em;
 }
 #results, ol, #resultsWrapper, #contacts {
   height: 100%;
 }
-li {
-  height: 10%;
-}
+
 #outer {
   display: table;
   position: absolute;
@@ -93,12 +95,34 @@ input:focus {
   font-size: 20px;
 }
 #yelp, #checkmark {
-  height: 90%;
-  width: auto;
+  height: 0.7em;
+  width: 0.7em;
 }
-#sendRequest:active {
-  background-color: #DB5A55;
+#sendRequest {
+  font-size: 40px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  background-color: #03606B;
 }
-
-
+#sendRequest:active, #addContact:active {
+  background-color: #36939E;
+}
+#barWrapper {
+  height: 100%;
+  left: 2em;
+  text-align: left;
+}
+#yelpWrapper {
+  left: 0%;
+  width: 1em;
+  height: 1em;
+  float: left;
+}
+#contactContainer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+ol {
+  overflow-y: scroll;
+}
 

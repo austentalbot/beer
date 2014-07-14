@@ -65,7 +65,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       parameters = [];
       parameters.push(['term', 'beer']);
       parameters.push(['ll', latlng]);
-      parameters.push(['limit', 10]);
+      // parameters.push(['limit', 10]);
       parameters.push(['sort', 1]);
       parameters.push(['distance', 500]);
       parameters.push(['callback', 'cb']);

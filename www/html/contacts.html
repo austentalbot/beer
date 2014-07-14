@@ -1,6 +1,6 @@
 <div ng-model='beer.contacts' ng-controller='myContacts' id='resultsWrapper' ng-init='checkLogin()'>
   <div ng-init='loadContacts()' id='contacts'>
-    <div id='sendRequest' ng-click='sendRequest()'> BEER </div>
+    <div id='sendRequest' ng-click='sendRequest()'>BEER</div>
     <form>
       <input id='name' type='text' placeholder='name'>
       <input id='email' type='text' placeholder='email'>
@@ -8,7 +8,7 @@
     </form>
     <ol>
       <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person); showCheck = ! showCheck' ng-class-odd="'odd'" ng-class-even="'even'">
-         <span>{{person.name}} <img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img></span>
+         <span id='contactContainer'>{{person.name}} <img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img></span>
       </li>
     </ol>
   </div>
