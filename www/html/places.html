@@ -1,10 +1,13 @@
-<div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper' ng-init='checkLogin()'>
-  <!-- <div ng-init='getLocalBusinesses()' id='results'> -->
+<!-- <div ng-model='beer.places' ng-controller='queryYelp' id='resultsWrapper' ng-init='checkLogin()'> -->
+<div ng-model='beer.places' ng-controller='query4sq' id='resultsWrapper' ng-init='checkLogin()'>
   <div id='results'>
       <ol>
         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
-           <a id='yelpWrapper' target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> {{bar.name}}: {{bar.distance.toFixed()}} meters, {{bar.rating}} stars</div></a>
+           <a id='yelpWrapper' target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> {{bar.venue.name}}: {{bar.venue.location.distance}} meters</div></a>
         </li>
+<!--         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
+           <a id='yelpWrapper' target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> {{bar.name}}: {{bar.distance.toFixed()}} meters, {{bar.rating}} stars</div></a>
+        </li> -->
       </ol>
   </div>
 </div>

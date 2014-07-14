@@ -63,7 +63,8 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         tokenSecret : auth.accessTokenSecret
       };
       parameters = {
-        'query': 'bar',
+        // 'query': 'bar',
+        'section': 'drinks',
         'll': latlng,
         'limit': 20,
         'radius': 500,
@@ -74,7 +75,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       };
 
       var message = {
-        'action' : 'https://api.foursquare.com/v2/venues/search',
+        'action' : 'https://api.foursquare.com/v2/venues/explore',
         'method' : 'GET',
         'parameters' : parameters
       };
@@ -89,18 +90,13 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         'url': message.action,
         'data': parameters,
         'success': function(data, textStats, XMLHttpRequest) {
-          console.log(data);
-          // $scope.nearby = data.businesses;
-          // $scope.$apply();
-          $rootScope.nearby=data.businesses;
-          // $rootScope.$digest();
+          console.log(data.response.groups[0].items);
+          // $rootScope.nearby=data.businesses;
+          $rootScope.nearby=data.response.groups[0].items;
         }
       });
     });
   };
-
-
-
 
 })
 
