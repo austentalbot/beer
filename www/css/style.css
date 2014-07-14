@@ -8,7 +8,7 @@ body {
 ion-pane {
   font-family: 'PT Sans Narrow';
   background-color: #F28D7A !important;
-  font-size: 25px;
+  font-size: 22px;
 }
 ion-pane {
   position: absolute;
@@ -94,9 +94,13 @@ input:focus {
   background-color: #03606B;
   font-size: 20px;
 }
-#yelp, #checkmark {
-  height: 0.7em;
-  width: 0.7em;
+#yelp {
+  height: 1em;
+  width: 1em;
+}
+#checkmark {
+  height: .7em;
+  width: .7em;
 }
 #sendRequest {
   height: 1em;
@@ -106,16 +110,16 @@ input:focus {
   background-color: #03606B;
 }
 #sendRequest:active, #addContact:active {
-  background-color: #36939E;
+  background-color: #377572;
 }
 #barWrapper {
-  height: 100%;
+  width: 95%;
   left: 2em;
   text-align: left;
 }
 #yelpWrapper {
   left: 0%;
-  width: 1em;
+  width: 2em;
   height: 1em;
   float: left;
 }

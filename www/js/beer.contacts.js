@@ -72,31 +72,32 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
       };
       sendTo.push(recipient);
     }
+    if (sendTo.length>0) {
+      var bar='<a href="'+$scope.Bar.selected.url+'">'+$scope.Bar.selected.name +', '+$scope.Bar.selected.location.address[0]+', '+$scope.Bar.selected.location.city+': '+$scope.Bar.selected.rating + ' stars</a>'
+      console.log(bar);
 
-    var bar='<a href="'+$scope.Bar.selected.url+'">'+$scope.Bar.selected.name +', '+$scope.Bar.selected.location.address[0]+', '+$scope.Bar.selected.location.city+': '+$scope.Bar.selected.rating + ' stars</a>'
-    console.log(bar);
+      var details=['<html><body>', $rootScope.user.displayName,'sent you a BEER request for',bar, '</body></html>'].join(' ');
 
-    var details=['<html><body>', $rootScope.user.displayName,'sent you a BEER request for',bar, '</body></html>'].join(' ');
-
-    console.log('sending!');
-    console.log(sendTo);
-    console.log($scope.Bar.selected)
-    console.log(details);
-    $.ajax({
-      type: 'POST',
-      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
-      data: {
-        'key': auth.mandrillKey,
-        'message': {
-          'from_email': 'BEER@beer.beer',
-          'to': sendTo,
-          'autotext': 'true',
-          'subject': 'BEER!',
-          'html': details
+      console.log('sending!');
+      console.log(sendTo);
+      console.log($scope.Bar.selected)
+      console.log(details);
+      $.ajax({
+        type: 'POST',
+        url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+        data: {
+          'key': auth.mandrillKey,
+          'message': {
+            'from_email': 'BEER@beer.beer',
+            'to': sendTo,
+            'autotext': 'true',
+            'subject': 'BEER!',
+            'html': details
+          }
         }
-      }
-    });
-    $state.go('home');
+      });
+      $state.go('home');
+    }
   };
 });
 
