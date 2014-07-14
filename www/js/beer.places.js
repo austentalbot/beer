@@ -36,22 +36,25 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   };
 
   var auth;
-  $.getJSON("./js/auth.json", function( data ) {
-    auth=data;
-    if (auth===undefined) {
-      auth = 
-        {
-          "consumerKey": process.env.consumerKey,
-          "consumerSecret": process.env.consumerSecret,
-          "accessToken": process.env.accessToken,
-          "accessTokenSecret": process.env.accessTokenSecret,
-          "mandrillKey": process.env.mandrillKey,
-          "serviceProvider": {
-            "signatureMethod": "HMAC-SHA1"
-          }
-        };
-    }
-  });
+  if (process.env.consumerKey) {
+    auth = 
+      {
+        "consumerKey": process.env.consumerKey,
+        "consumerSecret": process.env.consumerSecret,
+        "accessToken": process.env.accessToken,
+        "accessTokenSecret": process.env.accessTokenSecret,
+        "mandrillKey": process.env.mandrillKey,
+        "serviceProvider": {
+          "signatureMethod": "HMAC-SHA1"
+        }
+      };
+  } else  {
+    $.getJSON("./js/auth.json", function( data ) {
+      auth=data;
+      if (auth===undefined) {
+    });    
+  }
+
 
   $scope.Bar=Bar;
 
