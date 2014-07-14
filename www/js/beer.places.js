@@ -25,6 +25,86 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   });
 })
 
+
+.controller('query4sq', function($scope, Bar, $rootScope, $state) {
+
+  $scope.checkLogin = function () {
+    console.log($rootScope.user);
+    if ($rootScope.user===undefined) {
+      console.log('going to login');
+      $state.go('login');
+    }  
+  };
+
+  var auth;
+  $.getJSON("./js/auth.json", function( data ) {
+    auth=data;
+  });    
+
+  $scope.Bar=Bar;
+
+  //check for yelp results to load and stop checking after they display
+  var loadNearby=setInterval(function() {
+    $scope.nearby=$rootScope.nearby;
+    $scope.$digest()
+    if ($scope.nearby!==undefined) {
+      clearInterval(loadNearby);
+    }
+  }, 1000);
+
+  $scope.getLocalBusinesses = function() {
+    //get location first
+    navigator.geolocation.getCurrentPosition(function(data) {
+      var coords=data.coords;
+      var latlng=(coords.latitude).toFixed(5)+','+(coords.longitude).toFixed(5);
+
+      var accessor = {
+        consumerSecret : auth.consumerSecret,
+        tokenSecret : auth.accessTokenSecret
+      };
+      parameters = {
+        'query': 'bar',
+        'll': latlng,
+        'limit': 20,
+        'radius': 500,
+        'intent': 'browse',
+        'client_id': auth.FsqClientId,
+        'client_secret': auth.FsqClientSecret,
+        'v': '20140701'
+      };
+
+      var message = {
+        'action' : 'https://api.foursquare.com/v2/venues/search',
+        'method' : 'GET',
+        'parameters' : parameters
+      };
+
+      // OAuth.setTimestampAndNonce(message);
+      // OAuth.SignatureMethod.sign(message, accessor);
+
+      // var parameterMap = OAuth.getParameterMap(message.parameters);
+      // console.log(parameterMap);
+
+      $.ajax({
+        'url': message.action,
+        'data': parameters,
+        'success': function(data, textStats, XMLHttpRequest) {
+          console.log(data);
+          // $scope.nearby = data.businesses;
+          // $scope.$apply();
+          $rootScope.nearby=data.businesses;
+          // $rootScope.$digest();
+        }
+      });
+    });
+  };
+
+
+
+
+})
+
+
 .controller('queryYelp', function($scope, Bar, $rootScope, $state) {
 
   $scope.checkLogin = function () {
