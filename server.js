@@ -1,5 +1,5 @@
 var connect = require('connect');
 var serveStatic = require('serve-static');
 var path=__dirname+'/www';
-console.log(path);
-connect().use(serveStatic(path)).listen(9000);
+var port=process.env.PORT || 9000;
+connect().use(serveStatic(path)).listen(port);
