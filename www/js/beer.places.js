@@ -11,7 +11,6 @@ angular.module('beer.bar', [])
   };
 });
 
-
 angular.module('beer.places', ['ionic', 'beer.bar'])
 .run(function($ionicPlatform, $rootScope, $state) {
   $ionicPlatform.ready(function() {
