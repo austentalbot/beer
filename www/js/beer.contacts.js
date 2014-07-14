@@ -53,7 +53,6 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
 
     $('ol').height(height-topH-formH);
 
-
   };
   $scope.toggleContacts = function(person) {
     if (!$scope.mates[person.name]) {

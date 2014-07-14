@@ -95,12 +95,8 @@ input:focus {
   font-size: 20px;
 }
 #yelp, #checkmark {
-  height: 0.8em;
-  width: 0.8em;
-}
-#checkmark {
-  float: left;
-  position: fixed;
+  height: 0.7em;
+  width: 0.7em;
 }
 #sendRequest {
   height: 1em;
@@ -125,8 +121,8 @@ input:focus {
 }
 #contactContainer {
   display:block;
-  /*padding-top: 1em;*/
-  /*padding-bottom: 1em;*/
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   height: 100%;
 }
 ol {

@@ -8,7 +8,11 @@
     </form>
     <ol id='allContacts'>
       <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person); showCheck = ! showCheck' ng-class-odd="'odd'" ng-class-even="'even'">
-         <div id='contactContainer'><p style="padding-top:0.1em;padding-bottom:0.1em;margin:0">{{person.name}}</p><img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img></div>
+        <div id='contactContainer'>
+          <img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img>
+          {{person.name}}
+          <img ng-show='showCheck' id='checkmark' src='img/checkmark.png'></img>
+        </div>
       </li>
     </ol>
   </div>
