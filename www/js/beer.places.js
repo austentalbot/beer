@@ -51,7 +51,6 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   } else  {
     $.getJSON("./js/auth.json", function( data ) {
       auth=data;
-      if (auth===undefined) {
     });    
   }
 
