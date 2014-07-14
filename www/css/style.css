@@ -95,8 +95,7 @@ input:focus {
   font-size: 20px;
 }
 #yelp {
-  height: 1em;
-  width: 1em;
+  height: 20px;
 }
 #checkmark {
   height: .7em;
@@ -119,8 +118,6 @@ input:focus {
 }
 #yelpWrapper {
   left: 0%;
-  width: 2em;
-  height: 1em;
   float: left;
 }
 #contactContainer {
