@@ -25,7 +25,6 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
   });
 })
 
-
 .controller('query4sq', function($scope, Bar, $rootScope, $state, $http) {
 
   $scope.checkLogin = function () {
@@ -43,14 +42,23 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
 
   $scope.Bar=Bar;
 
-  //check for yelp results to load and stop checking after they display
-  var loadNearby=setInterval(function() {
-    $scope.nearby=$rootScope.nearby;
-    $scope.$digest()
-    if ($scope.nearby!==undefined) {
-      clearInterval(loadNearby);
-    }
-  }, 1000);
+  //check for 4sq results to load and stop checking after they display
+  $scope.loadResults = function () {   
+    var count=0;
+    var loadNearby=setInterval(function() {
+      //if 2 seconds pass and still no results, check again
+      if (count===4) {
+        $scope.getLocalBusinesses();
+        count=0;
+      }
+      count++;
+      $scope.nearby=$rootScope.nearby;
+      $scope.$digest();
+      if ($scope.nearby!==undefined) {
+        clearInterval(loadNearby);
+      }
+    }, 500);
+  }
 
   $scope.getLocalBusinesses = function() {
     //get location first
@@ -59,7 +67,6 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       var latlng=(coords.latitude).toFixed(5)+','+(coords.longitude).toFixed(5);
 
       parameters = {
-        // 'query': 'bar',
         'section': 'drinks',
         'll': latlng,
         'limit': 20,
@@ -73,8 +80,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       $http.get('https://api.foursquare.com/v2/venues/explore', {params: parameters}).success(function(data) {
         console.log(data.response.groups[0].items);
         $rootScope.nearby=data.response.groups[0].items;
-      });
-
+      }); 
 
       // $.ajax({
       //   'url': message.action,
