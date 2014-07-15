@@ -26,7 +26,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
 })
 
 
-.controller('query4sq', function($scope, Bar, $rootScope, $state) {
+.controller('query4sq', function($scope, Bar, $rootScope, $state, $http) {
 
   $scope.checkLogin = function () {
     console.log($rootScope.user);
@@ -58,10 +58,6 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       var coords=data.coords;
       var latlng=(coords.latitude).toFixed(5)+','+(coords.longitude).toFixed(5);
 
-      var accessor = {
-        consumerSecret : auth.consumerSecret,
-        tokenSecret : auth.accessTokenSecret
-      };
       parameters = {
         // 'query': 'bar',
         'section': 'drinks',
@@ -74,27 +70,22 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         'v': '20140701'
       };
 
-      var message = {
-        'action' : 'https://api.foursquare.com/v2/venues/explore',
-        'method' : 'GET',
-        'parameters' : parameters
-      };
-
-      // OAuth.setTimestampAndNonce(message);
-      // OAuth.SignatureMethod.sign(message, accessor);
-
-      // var parameterMap = OAuth.getParameterMap(message.parameters);
-      // console.log(parameterMap);
-
-      $.ajax({
-        'url': message.action,
-        'data': parameters,
-        'success': function(data, textStats, XMLHttpRequest) {
-          console.log(data.response.groups[0].items);
-          // $rootScope.nearby=data.businesses;
-          $rootScope.nearby=data.response.groups[0].items;
-        }
+      $http.get('https://api.foursquare.com/v2/venues/explore', {params: parameters}).success(function(data) {
+        console.log(data.response.groups[0].items);
+        $rootScope.nearby=data.response.groups[0].items;
       });
+
+
+      // $.ajax({
+      //   'url': message.action,
+      //   'data': parameters,
+      //   'success': function(data, textStats, XMLHttpRequest) {
+      //     console.log(data.response.groups[0].items);
+      //     // $rootScope.nearby=data.businesses;
+      //     $rootScope.nearby=data.response.groups[0].items;
+      //   }
+      // });
+      
     });
   };
 
