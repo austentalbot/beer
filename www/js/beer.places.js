@@ -69,8 +69,8 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       parameters = {
         'section': 'drinks',
         'll': latlng,
-        'limit': 20,
-        'radius': 500,
+        'limit': 50,
+        'radius': 1000,
         'intent': 'browse',
         'client_id': auth.FsqClientId,
         'client_secret': auth.FsqClientSecret,
