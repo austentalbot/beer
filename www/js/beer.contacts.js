@@ -63,6 +63,11 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   };
   $scope.sendRequest = function() {
     sendTo=[];
+    sendTo.push({
+      email: $rootScope.user.email,
+      name: $rootScope.user.displayName,
+      type: 'cc'
+    })
     for (var m in $scope.mates) {
       var mate=$scope.mates[m];
       var recipient={
@@ -73,11 +78,23 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
       sendTo.push(recipient);
     }
 
-    if (sendTo.length>0) {
-      var bar='<a href="https://foursquare.com/v/'+$scope.Bar.selected.venue.id+'">'+$scope.Bar.selected.venue.name +', '+$scope.Bar.selected.venue.location.formattedAddress[0]+', '+$scope.Bar.selected.venue.location.formattedAddress[1]+': '+$scope.Bar.selected.venue.rating + '/10</a>'
+    if (sendTo.length>1) {
+      var today = new Date();
+      var dd = today.getDate();
+      var mm = today.getMonth()+1;
+      var yyyy = today.getFullYear();
+      if(dd<10) {
+          dd='0'+dd
+      } 
+      if(mm<10) {
+          mm='0'+mm
+      } 
+      today = mm+'/'+dd+'/'+yyyy;
+
+      var bar='<a href="https://foursquare.com/v/'+$scope.Bar.selected.venue.id+'">'+$scope.Bar.selected.venue.name +', '+$scope.Bar.selected.venue.location.formattedAddress[0]+', '+$scope.Bar.selected.venue.location.formattedAddress[1]+': '+$scope.Bar.selected.venue.rating + '/10.</a>'
       console.log(bar);
 
-      var details=['<html><body><div>', $rootScope.user.displayName,'sent you a BEER request for',bar,'<br><br>Make happy hour easier with <a href="https://prost.firebaseapp.com/">PROST</a><br><br>PROST!</body></html>'].join(' ');
+      var details=['<html><body><div>', $rootScope.user.displayName,'sent you a BEER request for',bar,' Reply all to finalize the details.<br><br>Make happy hour easier with <a href="https://prost.firebaseapp.com/">PROST</a><br><br>PROST!</body></html>'].join(' ');
 
       console.log('sending!');
       console.log(sendTo);
@@ -92,7 +109,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
             'from_email': 'BEER@beer.beer',
             'to': sendTo,
             'autotext': 'true',
-            'subject': 'BEER!',
+            'subject': $rootScope.user.displayName+' wants to grab a drink today ('+today+')!',
             'html': details
           }
         }
