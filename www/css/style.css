@@ -1,5 +1,5 @@
 /*COLOR SCHEME:
-https://kuler.adobe.com/Copy-of-Wildflower-simone-color-theme-3999099/edit/?copy=true
+https://kuler.adobe.com/beer-theme-color-theme-4137126/
 */
 
 body {
@@ -49,14 +49,14 @@ a {
   color: #FEF2D8;
 }
 .odd {
-  background-color: #6AA8A5;
-  color: #FEF2D8;
+  background-color: #FEF2D8;
+  color: #DB5A55;
   padding-top: .2em;
   padding-bottom: .2em;
 }
 .even {
-  background-color: #F28D7A;
-  color: #FEF2D8;
+  background-color: #FFDEC3;
+  color: #DB5A55;
   padding-top: .2em;
   padding-bottom: .2em;
 }
@@ -83,15 +83,15 @@ a {
 }
 input {
   background-color: #FEF2D8;
-  color: #6AA8A5 !important;
+  color: #DB5A55 !important;
   font-family: 'PT Sans Narrow';
   font-size: 20px !important;
 }
 input:focus {
-  background-color: #FFE4D1;
+  background-color: #FFDEC3;
 }
 #addContact {
-  background-color: #03606B;
+  background-color: #DB5A55;
   font-size: 20px;
 }
 #yelp {
@@ -106,12 +106,13 @@ input:focus {
   font-size: 40px;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
-  background-color: #03606B;
+  background-color: #DB5A55;
 }
 #sendRequest:active, #addContact:active {
-  background-color: #377572;
+  background-color: #F28D7A;
 }
 #barWrapper {
+  color: #DB5A55;
   width: 95%;
   left: 2em;
   text-align: left;
