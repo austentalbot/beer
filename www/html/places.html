@@ -3,7 +3,7 @@
   <div id='results'>
       <ol>
         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
-           <a id='yelpWrapper' target='_blank' href='https://foursquare.com/v/{{bar.venue.id}}'><img id='yelp' src="img/foursquare.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> <span style="display:inline-block; width: 1em;"></span>{{bar.venue.name}} | {{bar.venue.categories[0].name}}<br><div style='font-size:.75em'><span style="display:inline-block; width: 1.4em;"></span>{{bar.venue.location.distance}} meters ({{bar.venue.rating}}/10)</div></div></a>
+           <a id='yelpWrapper' target='_blank' href='https://foursquare.com/v/{{bar.venue.id}}'><img id='yelp' src="img/foursquare.png"></a> <a ui-sref='contacts' style='text-decoration:none'><span style="display:inline-block; width: 80%;"><div id='barWrapper'>{{bar.venue.name}} | {{bar.venue.categories[0].name}}<br><div style='font-size:.75em'>{{bar.venue.location.distance}} meters ({{bar.venue.rating}}/10)</div></div></span></a>
         </li>
 <!--         <li ng-repeat="bar in nearby" ng-click='Bar.setProperty(bar)' ng-class-odd="'odd'" ng-class-even="'even'">
            <a id='yelpWrapper' target='_blank' href={{bar.url}}><img id='yelp' src="img/yelp.png"></a> <a ui-sref='contacts' style='text-decoration:none'><div id='barWrapper'> {{bar.name}}: {{bar.distance.toFixed()}} meters, {{bar.rating}} stars</div></a>
