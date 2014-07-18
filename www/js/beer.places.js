@@ -69,8 +69,8 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       parameters = {
         'section': 'drinks',
         'll': latlng,
-        'limit': 50,
-        'radius': 1000,
+        'limit': 30,
+        'radius': 4000,
         'intent': 'browse',
         'client_id': auth.FsqClientId,
         'client_secret': auth.FsqClientSecret,
@@ -80,6 +80,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       $http.get('https://api.foursquare.com/v2/venues/explore', {params: parameters}).success(function(data) {
         console.log(data.response.groups[0].items);
         $rootScope.nearby=data.response.groups[0].items;
+
       }); 
 
       // $.ajax({
