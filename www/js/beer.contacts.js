@@ -42,6 +42,17 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
     }
   };
 
+  $scope.deleteContact = function() {
+    if (Object.keys($scope.mates).length){
+      for (var m in $scope.mates) {
+        var mate=$scope.mates[m];
+        console.log(mate);
+        $rootScope.elFuego.$remove(mate.$id);
+      }
+      $scope.mates={};
+    }
+  };
+
   $scope.loadContacts = function() {
     $scope.people=$rootScope.elFuego;
     console.log($scope.Bar.selected);
@@ -52,6 +63,7 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
     var formH = $('form').outerHeight();
 
     $('ol').height(height-topH-formH);
+    // $('ol').top(topH+formH+contH);
 
   };
   $scope.toggleContacts = function(person) {

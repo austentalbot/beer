@@ -90,10 +90,23 @@ input {
 input:focus {
   background-color: #FFDEC3;
 }
-#addContact {
+#addContact, #deleteContact {
+  width: 50%;
   background-color: #DB5A55;
   font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  left: 0%;
+  border: solid 2px;
 }
+#deleteContact {
+  vertical-align: top;
+  left: 50%;
+}
+#editContacts {
+  height: 1em;
+}
+
 #yelp {
   height: 2em;
 }
@@ -108,7 +121,7 @@ input:focus {
   padding-bottom: 0.3em;
   background-color: #DB5A55;
 }
-#sendRequest:active, #addContact:active {
+#sendRequest:active, #addContact:active, #deleteContact:active {
   background-color: #F28D7A;
 }
 #barWrapper {

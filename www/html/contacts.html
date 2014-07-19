@@ -4,7 +4,10 @@
     <form>
       <input id='name' type='text' placeholder='name'>
       <input id='email' type='text' placeholder='email'>
-      <div id='addContact' ng-click='saveContact()'>ADD NEW CONTACT</div>
+      <div id='editContacts'>
+        <div id='addContact' ng-click='saveContact()'>ADD NEW</div>
+        <div id='deleteContact' ng-click='deleteContact()'>DELETE SELECTED</div>
+      </div>
     </form>
     <ol id='allContacts'>
       <li ng-repeat="person in people | orderByPriority | orderBy:'name'" ng-click='toggleContacts(person); showCheck = ! showCheck' ng-class-odd="'odd'" ng-class-even="'even'">
