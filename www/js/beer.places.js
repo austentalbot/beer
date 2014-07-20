@@ -58,12 +58,40 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         clearInterval(loadNearby);
       }
     }, 500);
-  }
+  };
+
+  $scope.findDirection = function (lat2, lng2) {
+    var lat1 = $rootScope.coords.latitude;
+    var lng1 = $rootScope.coords.longitude;
+
+    lat1 = lat1 * Math.PI / 180;
+    lat2 = lat2 * Math.PI / 180;
+    var dLng = (lng2-lng1) * Math.PI / 180;
+    var y = Math.sin(dLng) * Math.cos(lat2);
+    var x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLng);
+
+    var bearing = Math.atan2(y, x) * 180 / Math.PI;
+    if (bearing < 0){
+      bearing = bearing + 360;
+    }
+
+    var bearings = ["NE", "E", "SE", "S", "SW", "W", "NW", "N"];
+
+    var index = bearing - 22.5;
+    if (index < 0) {
+      index += 360;  
+    }
+
+    index = parseInt(index / 45);
+
+    return(bearings[index]);
+  };
 
   $scope.getLocalBusinesses = function() {
     //get location first
     navigator.geolocation.getCurrentPosition(function(data) {
       var coords=data.coords;
+      $rootScope.coords=coords;
       var latlng=(coords.latitude).toFixed(5)+','+(coords.longitude).toFixed(5);
 
       parameters = {
