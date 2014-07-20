@@ -31,9 +31,4 @@ angular.module('beer.login', ['ionic', 'firebase'])
     $rootScope.user=undefined;
     auth.login('google', {preferRedirect: true, rememberMe: true});
   };
-  // $rootScope.elFuego=$firebase(elFuego);
-  // console.log($rootScope.elFuego);
-
-  // $rootScope.elFuego.$add({userId: "114401772005505929091", name: "Austen Talbot", email: "austentalbot@gmail.com"});
-  // console.log('added');
 });

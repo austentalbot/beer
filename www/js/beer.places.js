@@ -106,20 +106,11 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
       };
 
       $http.get('https://api.foursquare.com/v2/venues/explore', {params: parameters}).success(function(data) {
+        console.log(data.response);
         console.log(data.response.groups[0].items);
         $rootScope.nearby=data.response.groups[0].items;
 
       }); 
-
-      // $.ajax({
-      //   'url': message.action,
-      //   'data': parameters,
-      //   'success': function(data, textStats, XMLHttpRequest) {
-      //     console.log(data.response.groups[0].items);
-      //     // $rootScope.nearby=data.businesses;
-      //     $rootScope.nearby=data.response.groups[0].items;
-      //   }
-      // });
       
     });
   };
@@ -195,10 +186,7 @@ angular.module('beer.places', ['ionic', 'beer.bar'])
         'jsonpCallback': 'cb',
         'success': function(data, textStats, XMLHttpRequest) {
           console.log(data);
-          // $scope.nearby = data.businesses;
-          // $scope.$apply();
           $rootScope.nearby=data.businesses;
-          // $rootScope.$digest();
         }
       });
     });

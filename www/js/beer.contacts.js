@@ -131,8 +131,3 @@ angular.module('beer.contacts', ['ionic', 'beer.bar'])
   };
 });
 
-
-
-
-
-
